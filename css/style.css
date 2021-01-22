@@ -1,0 +1,83 @@
+body {
+margin: 0;
+overflow: hidden;
+}
+
+.main_container {
+    background-color: aquamarine;
+    font-family: cursive;
+    width: 800px;
+    height: 100vh;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+#top_container {
+    display: flex;    
+    justify-content: center;
+}
+
+#top_container > div {
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    opacity: 0.2;
+}
+
+h1, h2{
+    color: blue; 
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+li a {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href="https://www.univ-chlef.dz"]:hover {
+    color: blue;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: burlywood;
+}
+
+th, td {
+    border-bottom: 0.5px solid black;
+}
+
+.button {
+    width: 200px;
+    color: blueviolet;
+}
+
+ .button:hover {
+     width: 180px;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: blueviolet;
+    }
+}
